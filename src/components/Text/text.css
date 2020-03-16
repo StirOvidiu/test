@@ -1,0 +1,22 @@
+.container-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.container-text-h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-right: 20em;
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container-text {
+    display: none;
+  }
+}

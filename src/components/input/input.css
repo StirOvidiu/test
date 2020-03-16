@@ -1,0 +1,73 @@
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px auto 20px auto;
+  width: 100%;
+  max-width: 1170px;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.input > h1 {
+  width: 45%;
+  font-size: 20px;
+}
+
+.input-name,
+.input-email {
+  width: 45%;
+  border: 1.5px lightgrey solid;
+  padding: 0px 5px;
+  margin: 0 10px;
+}
+
+.turqoise {
+  background-color: turquoise;
+  height: 20px;
+  width: 100%;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-row > button {
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .input-container {
+    width: 90%;
+    margin: 25px auto;
+  }
+  .input {
+    flex-direction: column;
+  }
+  .input > h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .input > button {
+    width: 30%;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .input-form {
+    width: 70%;
+    margin-right: 15px;
+  }
+  .input-name {
+    display: none;
+  }
+  .input-email {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,18 @@
+.slide-show {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 2%;
+}
+.image-slider {
+  width: 696px;
+  height: 330px;
+}
+@media screen and (max-width: 768px) {
+  .image-slider {
+    width: 100% !important;
+    margin: 12.5px 0px;
+  }
+  .image-slider > div {
+    width: 90% !important;
+  }
+}

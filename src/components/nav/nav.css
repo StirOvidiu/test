@@ -1,0 +1,24 @@
+.nav1 {
+  position: relative;
+  height: 50px;
+}
+.first-nav {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+.nav-button {
+  display: flex;
+  float: right;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.margin {
+  margin: 0 0.5em;
+}
+@media screen and (max-width: 768px) {
+  .nav1 {
+    display: none;
+  }
+}

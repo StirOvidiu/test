@@ -1,0 +1,54 @@
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  max-width: 1170px;
+}
+
+.first-project {
+  flex: 1;
+  padding: 50px;
+  height: 70%;
+  border-radius: 2%;
+  margin-left: 25px;
+  color: black;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.first-project > button {
+  border-style: none;
+  border-radius: 4%;
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: #002870;
+}
+
+@media screen and (max-width: 768px) {
+  .body-container {
+    background-color: #002870;
+  }
+  .project-container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    background-color: #002870;
+  }
+
+  .first-project {
+    margin: 12.5px 0 12.5px 0px;
+    background-color: white;
+  }
+
+  .first-project > h1 {
+    font-size: 35px;
+  }
+}
